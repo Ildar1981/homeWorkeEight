@@ -1,0 +1,23 @@
+{
+  "name": "testapikomtek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel": "^6.23.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-fetch": "^3.3.1"
+  }
+}
