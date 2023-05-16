@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user POST /api/v1/auth/access_token Авторизация должна возвращать статус с кодом 400 ошибки если логин неверный 1`] = `
+{
+  "messages": [
+    {
+      "error_type": "api error",
+      "field": null,
+      "message": "Пользователь с такими логином и паролем не найден.",
+      "message_details": "ошибка запроса",
+    },
+  ],
+}
+`;
+
+exports[`user Авторизация должна возвращать статус с кодом 400 ошибки если пароль неверный 1`] = `
+{
+  "messages": [
+    {
+      "error_type": "api error",
+      "field": null,
+      "message": "Пользователь с такими логином и паролем не найден.",
+      "message_details": "ошибка запроса",
+    },
+  ],
+}
+`;

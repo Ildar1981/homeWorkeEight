@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683954992103' stop='1683954992229'>
+    <name>test 1</name>
+    <title>test 1</title>
+    <test-cases>
+        <test-case start='1683954992104' status='failed' stop='1683954992111'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels>
+                <label name='test level' value='API'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='STAND' value='LOCAL'/>
+                <parameter kind='environment-variable' name='URL' value='http://192.168.2.45:3003'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: reporter.desccription is not a function</message>
+                <stack-trace>TypeError: reporter.desccription is not a function
+                    at Object.desccription (C:\Users\windows10\testApiKomtek\tests\user\reporter.spec.js:12:18)
+                    at Object.asyncJestTest (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:116:37)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:35:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:22:19)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:62:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1683954992111' status='passed' stop='1683954992228'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels>
+                <label name='test level' value='API'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='STAND' value='LOCAL'/>
+                <parameter kind='environment-variable' name='URL' value='http://192.168.2.45:3003'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

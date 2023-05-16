@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683921138401' stop='1683921138414'>
+    <name>test 1</name>
+    <title>test 1</title>
+    <test-cases>
+        <test-case start='1683921138403' status='failed' stop='1683921138411'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: reporter.desccription is not a function</message>
+                <stack-trace>TypeError: reporter.desccription is not a function
+                    at Object.desccription (C:\Users\windows10\testApiKomtek\tests\user\reporter.spec.js:5:18)
+                    at Object.asyncJestTest (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:116:37)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:35:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:22:19)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:62:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1683921138412' status='failed' stop='1683921138413'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: reporter.desccription is not a function</message>
+                <stack-trace>TypeError: reporter.desccription is not a function
+                    at Object.desccription (C:\Users\windows10\testApiKomtek\tests\user\reporter.spec.js:13:18)
+                    at Object.asyncJestTest (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:116:37)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:35:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:22:19)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:62:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

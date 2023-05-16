@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683955016862' stop='1683955016994'>
+    <name>test 1</name>
+    <title>test 1</title>
+    <test-cases>
+        <test-case start='1683955016863' status='passed' stop='1683955016867'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels>
+                <label name='test level' value='API'/>
+                <label name='epic' value='auth'/>
+                <label name='feature' value='signup'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='STAND' value='LOCAL'/>
+                <parameter kind='environment-variable' name='URL' value='http://192.168.2.45:3003'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <description type='text'>after signup user got recived verify emil</description>
+        </test-case>
+        <test-case start='1683955016867' status='passed' stop='1683955016993'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels>
+                <label name='test level' value='API'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='STAND' value='LOCAL'/>
+                <parameter kind='environment-variable' name='URL' value='http://192.168.2.45:3003'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

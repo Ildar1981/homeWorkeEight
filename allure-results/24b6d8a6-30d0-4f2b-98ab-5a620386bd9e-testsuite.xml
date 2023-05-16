@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683922149678' stop='1683922149706'>
+    <name>test 1</name>
+    <title>test 1</title>
+    <test-cases>
+        <test-case start='1683922149680' status='failed' stop='1683922149702'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='URL' value='test.com'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: reporter.desccription is not a function</message>
+                <stack-trace>TypeError: reporter.desccription is not a function
+                    at Object.desccription (C:\Users\windows10\testApiKomtek\tests\user\reporter.spec.js:7:18)
+                    at Object.asyncJestTest (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:116:37)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:35:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:22:19)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:62:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1683922149703' status='failed' stop='1683922149706'>
+            <name>email verification send</name>
+            <title>email verification send</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='URL' value='test.com'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: reporter.desccription is not a function</message>
+                <stack-trace>TypeError: reporter.desccription is not a function
+                    at Object.desccription (C:\Users\windows10\testApiKomtek\tests\user\reporter.spec.js:14:18)
+                    at Object.asyncJestTest (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:116:37)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:35:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:22:19)
+                    at C:\Users\windows10\testApiKomtek\node_modules\jest-jasmine2\build\queueRunner.js:62:41
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
