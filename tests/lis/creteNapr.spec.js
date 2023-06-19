@@ -3,7 +3,7 @@ import { expect } from '@playwright/test'
 import { authAdmin, openModule } from '../../functions'
 import { createReferralNew } from './functions'
 
-
+//homework
 test.describe(`Создание направления`, () => {
 	
 	

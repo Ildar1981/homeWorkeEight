@@ -2,6 +2,7 @@ import { test } from '../../fixtures/default'
 import { expect } from '@playwright/test'
 import { authAdmin, openModule } from '../../functions'
 import { _patient } from '../../const'
+//homework
 
 test.describe(`Открытие и закрытие модальных окон`, () => {
   test.beforeEach(async ({ page }) => {

@@ -1,7 +1,7 @@
 import { test } from '../../fixtures/default'
 import { expect } from '@playwright/test'
 import { authAdmin, openModule } from '../../functions'
-
+//homework
 test.describe(`Проверка справочников`, () => {
   test.beforeEach(async ({ page }) => {
 
